@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>JSON</title>
+</head>
+<body>
+    <script>
+        var ob = {
+            name: "Bilal",
+            age: 12
+        };
+
+        var s = JSON.stringify(ob) // Object --> String
+        var ob2 = JSON.parse(s) // String --> Object
+
+        document.write(ob2.name);
+    </script>
+</body>
+
+</html>
